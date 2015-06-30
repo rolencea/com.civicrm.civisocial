@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/settings</path>
+    <page_callback>CRM_Civisocial_Page_Settings</page_callback>
+    <title>Settings</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/twitterinfo</path>
+    <page_callback>CRM_Civisocial_Page_Twitterinfo</page_callback>
+    <title>Twitterinfo</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/facebookinfo</path>
+    <page_callback>CRM_Civisocial_Page_Facebookinfo</page_callback>
+    <title>Facebookinfo</title>
+    <access_arguments>access com.civicrm.civisocial</access_arguments>
+  </item>
+</menu>
